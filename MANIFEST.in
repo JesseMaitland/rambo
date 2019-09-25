@@ -1,0 +1,2 @@
+include rambo/config/config_template.yml
+include rambo/config/rambo.yml

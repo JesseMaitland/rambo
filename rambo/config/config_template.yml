@@ -1,0 +1,7 @@
+commands:
+  action:
+    help: "creates a new project structure and necessary files"
+    choices:
+  object:
+    help: "here is the help"
+    choices:

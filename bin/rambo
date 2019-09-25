@@ -1,0 +1,9 @@
+#!venv/bin/python3
+from rambo.actions import _get_action
+
+
+
+
+if __name__ == "__main__":
+    action = _get_action()
+    action()
