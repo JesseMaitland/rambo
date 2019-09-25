@@ -13,7 +13,7 @@ def get_long_description():
 
 
 setup(
-    name='rambo',
+    name='rambo-py',
     version='1.0.0',
     author='jesse maitland',
     discription='collection of handy methods for terminal applications',
