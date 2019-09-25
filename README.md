@@ -43,7 +43,10 @@ to functions of the same name.
 
 ## Rambo Decorators
 
-Rambo provides handy decorator methods to access the passed in cmd arguments, 
+Rambo provides handy decorator methods to access the passed in cmd arguments, rambo.yml config file
+and function key value
+
+
 
 
 
