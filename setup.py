@@ -20,7 +20,7 @@ setup(
     include_package_data=True,
     long_description=get_long_description(),
     install_requires=get_requirements(),
-    packages=find_packages(exclude=('tests', 'venv', 'logs')),
+    packages=find_packages(exclude=('tests', 'venv', 'logs', 'rambo/example')),
     scripts=["bin/rambo"],
     download_url="https://github.com/JesseMaitland/rambo/archive/1.0.0.tar.gz"
 )

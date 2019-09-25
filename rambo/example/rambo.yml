@@ -2,10 +2,11 @@ commands:
   action:
     help: "available options for the rambo action argument"
     choices:
-      - init
-      - delete
+      - create
+      - view
   object:
     help: "available options for the object argument"
     choices:
       - project
       - file
+      - config
