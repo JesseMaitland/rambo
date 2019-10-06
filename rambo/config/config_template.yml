@@ -1,7 +1,9 @@
 commands:
   action:
-    help: "creates a new project structure and necessary files"
+    help: "place your actions (verbs) under action. eg, create, make, delete"
     choices:
+      - create # this is an example
   object:
-    help: "here is the help"
+    help: "place here the objects (nouns) which will be acted upon. eg file, migration, table"
     choices:
+      - file # this is an example

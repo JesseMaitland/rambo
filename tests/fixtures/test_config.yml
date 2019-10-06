@@ -1,0 +1,11 @@
+commands:
+  action:
+    help: "here are actions for tests"
+    choices:
+      - create
+      - delete
+  object:
+    help: "here are objects for tests"
+    choices:
+      - project
+      - file

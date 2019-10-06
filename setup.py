@@ -14,7 +14,7 @@ def get_long_description():
 
 setup(
     name='rambo-py',
-    version='1.0.0',
+    version='1.0.1',
     author='jesse maitland',
     discription='collection of handy methods for terminal applications',
     include_package_data=True,
@@ -22,5 +22,6 @@ setup(
     install_requires=get_requirements(),
     packages=find_packages(exclude=('tests', 'venv', 'logs', 'rambo/example')),
     scripts=["bin/rambo"],
-    download_url="https://github.com/JesseMaitland/rambo/archive/1.0.0.tar.gz"
+    download_url="https://github.com/JesseMaitland/rambo/archive/1.0.1.tar.gz",
+    long_description_content_type="text/markdown"
 )
