@@ -47,6 +47,20 @@ Rambo provides handy decorator methods to access the passed in cmd arguments, ra
 and function key value
 
 
+Provides the ```rambo.yml``` config file as a dictionary to the decorated function.
+```
+@provide_config(path = this is optional)
+def my_cool_func(confg):
+	# do things with config here
+```
+
+Provides the namespace object to the decorated function with the commands available in ````rambo.yml````
+```
+@provide_cmd_args
+def another_cool_func(cmd_args):
+	# do some things with the arguments in the argparser
+```
+
 
 
 
